@@ -17,24 +17,24 @@
 							<div class="sidebar">
 								<h3>Latest News</h3>
 								<ul>
-									{{#each newsJSON.latestNews}}
+									{{#each news.latestNews}}
 									<li>
-										<a href="/news">{{this.headline}}</a>
+										<a href="/api/news/{{this.code}}">{{this.headline}}</a>
 									</li>
 									{{/each}}
 								</ul>
 								<h3>Vaction Tips</h3>
 								<ul>
-									{{#each newsJSON.vacationTips}}
+									{{#each news.vacationTips}}
 									<li>
-										<a href="/news">{{this.headline}}</a>
+										<a href="/api/news/{{this.code}}">{{this.headline}}</a>
 									</li>
 									{{/each}}
 								</ul>
 							</div>
 							<div>
 								<h1>News</h1>
-								{{#each newsJSON.mainStories}}
+								{{#each news.mainStories}}
 								<img src="images/{{this.image}}" alt="Img">
 								<h2>{{this.headline}}</h2>
 								<span class="time">{{this.datePublished}}<br> by: {{this.author}}</span>

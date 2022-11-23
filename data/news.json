@@ -1,78 +1,92 @@
 {
-  "latestNews": [
-    {
-      "headline": "2023 Best Dynamic Beaches Contest Winners",
-      "image": "",
-      "datePublished": "April 02, 2023",
-      "author": "",
-      "content": "<p>Dynamic Integer magna leo, posuere et dignissim vitae, porttitor at odio. Pellentesque a metus nec magna placerat volutpat. Nunc nisi mi, elementum sit amet... </p>"
-    },
-    {
-      "headline": "Top 10 Dynamic Diving Spots",
-      "image": "",
-      "datePublished": "May 29, 2023",
-      "author": "",
-      "content": "<p>Dyanmic Maecenas scelerisque odio quis arcu fringilla malesuada. Nulla facilisi. In libero nulla, fermentum ut pretium ac, pharetra et eros... </p>"
-    },
-    {
-      "headline": "Dynamic fishing ban to be implemented this year",
-      "image": "",
-      "datePublished": "April 03, 2023",
-      "author": "",
-      "content": ""
-    },
-    {
-      "headline": "Lifeguard saves child from dynamic drowning",
-      "image": "",
-      "datePublished": "April 03, 2023",
-      "author": "",
-      "content": ""
-    }
-  ],
-  "vacationTips": [
-    {
-      "headline": "What to bring on the handlebars beach?",
-      "image": "",
-      "datePublished": "April 03, 2023",
-      "author": "",
-      "content": ""
-    },
-    {
-      "headline": "Planning Fun Activities...dynamically",
-      "image": "",
-      "datePublished": "April 03, 2023",
-      "author": "",
-      "content": ""
-    },
-    {
-      "headline": "First Aid?",
-      "image": "",
-      "datePublished": "April 03, 2023",
-      "author": "",
-      "content": ""
-    },
-    {
-      "headline": "How to Build a Dynamic Sand Castle?",
-      "image": "",
-      "datePublished": "April 03, 2023",
-      "author": "",
-      "content": ""
-    },
-    {
-      "headline": "Dynamic Tanning Tips",
-      "image": "",
-      "datePublished": "April 03, 2023",
-      "author": "",
-      "content": ""
-    }
-  ],
-  "mainStories": [
-    {
-      "headline": "Experience Dynamic Kayaking!",
-      "image": "kayak.jpg",
-      "datePublished": "April 03, 2023",
-      "author": "Juan De La Cruz",
-      "content": "<p>Juan De La Cruz...Sed et augue lorem. In sit amet placerat arcu. Mauris volutpat ipsum ac justo mollis vel vestibulum orci gravida. Vestibulum sit amet porttitor odio. Nulla facilisi. Fusce at pretium felis. Sed consequat libero ut turpis venenatis ut aliquam risus semper. Etiam convallis mi vel risus pretium sodales. Etiam nunc lorem, ullamcorper vitae laoreet id, rutrum et tortor. Vivamus luctus, lacus id egestas facilisis, nunc nunc ultricies lorem, vitae pulvinar nibh urna vel velit. </p> <p> Cras dui sapien, feugiat vitae tristique ut, lobortis tempor orci. Donec pulvinar sagittis metus ut tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In hac habitasse platea dictumst. Nulla at nunc sit amet justo cursus imperdiet. Mauris est leo, placerat nec eleifend eu, facilisis id dolor. Donec nisi nibh, elementum vitae imperdiet non, placerat et felis. Maecenas scelerisque odio quis arcu fringilla malesuada. Nulla facilisi. In libero nulla, fermentum ut pretium ac, pharetra et eros. </p> <p> Phasellus viverra fringilla lacus, malesuada blandit velit iaculis dignissim. Suspendisse rutrum massa mauris. Donec quis tempus elit.Integer magna leo, posuere et dignissim vitae, porttitor at odio. Pellentesque a metus nec magna placerat volutpat. </p>"
-    }
-  ]
+  "1": {
+    "code": "news0",
+    "headline": "2023 Best Dynamic Beaches Contest Winners",
+    "image": "",
+    "datePublished": "April 02, 2023",
+    "author": "",
+    "content": "<p>Dynamic Integer magna leo, posuere et dignissim vitae, porttitor at odio. Pellentesque a metus nec magna placerat volutpat. Nunc nisi mi, elementum sit amet... </p>",
+    "tag": "latestNews"
+  },
+  "2": {
+    "code": "news1",
+    "headline": "Top 10 Dynamic Diving Spots",
+    "image": "",
+    "datePublished": "May 29, 2023",
+    "author": "",
+    "content": "<p>Dyanmic Maecenas scelerisque odio quis arcu fringilla malesuada. Nulla facilisi. In libero nulla, fermentum ut pretium ac, pharetra et eros... </p>",
+    "tag": "latestNews"
+  },
+  "3": {
+    "code": "news2",
+    "headline": "Dynamic fishing ban to be implemented this year",
+    "image": "",
+    "datePublished": "April 03, 2023",
+    "author": "",
+    "content": "",
+    "tag": "latestNews"
+  },
+  "4": {
+    "code": "news3",
+    "headline": "Lifeguard saves child from dynamic drowning",
+    "image": "",
+    "datePublished": "April 03, 2023",
+    "author": "",
+    "content": "",
+    "tag": "latestNews"
+  },
+  "5": {
+    "code": "news4",
+    "headline": "What to bring on the handlebars beach?",
+    "image": "",
+    "datePublished": "April 03, 2023",
+    "author": "",
+    "content": "",
+    "tag": "vacationTips"
+  },
+  "6": {
+    "code": "news5",
+    "headline": "Planning Fun Activities...dynamically",
+    "image": "",
+    "datePublished": "April 03, 2023",
+    "author": "",
+    "content": "",
+    "tag": "vacationTips"
+  },
+  "7": {
+    "code": "news6",
+    "headline": "First Aid?",
+    "image": "",
+    "datePublished": "April 03, 2023",
+    "author": "",
+    "content": "",
+    "tag": "vacationTips"
+  },
+  "8": {
+    "code": "news7",
+    "headline": "How to Build a Dynamic Sand Castle?",
+    "image": "",
+    "datePublished": "April 03, 2023",
+    "author": "",
+    "content": "",
+    "tag": "vacationTips"
+  },
+  "9": {
+    "code": "news8",
+    "headline": "Dynamic Tanning Tips",
+    "image": "",
+    "datePublished": "April 03, 2023",
+    "author": "",
+    "content": "",
+    "tag": "vacationTips"
+  },
+  "10": {
+    "code": "news9",
+    "headline": "Experience Dynamic Kayaking!",
+    "image": "kayak.jpg",
+    "datePublished": "April 03, 2023",
+    "author": "Juan De La Cruz",
+    "content": "<p>Juan De La Cruz...Sed et augue lorem. In sit amet placerat arcu. Mauris volutpat ipsum ac justo mollis vel vestibulum orci gravida. Vestibulum sit amet porttitor odio. Nulla facilisi. Fusce at pretium felis. Sed consequat libero ut turpis venenatis ut aliquam risus semper. Etiam convallis mi vel risus pretium sodales. Etiam nunc lorem, ullamcorper vitae laoreet id, rutrum et tortor. Vivamus luctus, lacus id egestas facilisis, nunc nunc ultricies lorem, vitae pulvinar nibh urna vel velit. </p> <p> Cras dui sapien, feugiat vitae tristique ut, lobortis tempor orci. Donec pulvinar sagittis metus ut tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In hac habitasse platea dictumst. Nulla at nunc sit amet justo cursus imperdiet. Mauris est leo, placerat nec eleifend eu, facilisis id dolor. Donec nisi nibh, elementum vitae imperdiet non, placerat et felis. Maecenas scelerisque odio quis arcu fringilla malesuada. Nulla facilisi. In libero nulla, fermentum ut pretium ac, pharetra et eros. </p> <p> Phasellus viverra fringilla lacus, malesuada blandit velit iaculis dignissim. Suspendisse rutrum massa mauris. Donec quis tempus elit.Integer magna leo, posuere et dignissim vitae, porttitor at odio. Pellentesque a metus nec magna placerat volutpat. </p>",
+    "tag": "mainStory"
+  }
 }
