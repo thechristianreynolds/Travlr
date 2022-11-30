@@ -3,13 +3,25 @@
     {{ trip.name }}
   </div>
   <div class="card-body">
-    <img *ngIf="trip.image.includes('http') || trip.image.includes('https')" src="{{ trip.image }}" class="card-img-top" alt="trip thumbnail">
-    <img *ngIf="!trip.image.includes('http')" src="assets/images/{{ trip.image }}" class="card-img-top" alt="trip thumbnail">
+    <img *ngIf="trip.image.includes('http') || trip.image.includes('https')" src="{{ trip.image }}" class="card-img-top"
+      alt="trip thumbnail">
+    <img *ngIf="!trip.image.includes('http')" src="assets/images/{{ trip.image }}" class="card-img-top"
+      alt="trip thumbnail">
     <h6 class="card-subtitle mt-3 text-muted">{{ trip.resort }}</h6>
     <p class="card-subtitle mt-3 mb-3 text-muted">{{ trip.length }} only
       {{ trip.perPerson | currency:'USD':true }} per person
     </p>
     <p class="card-text" [innerHTML]="trip.description"></p>
   </div>
-  <button (click)="editTrip(trip)" class="btn btn-info">Edit</button>
+  <div>
+    <div *ngIf="this.displayTripDeletePopup" class="alert alert-danger fade show" role="alert">
+      <h4 class="alert-heading">Are you sure?</h4>
+      <p>Deleting a trip is permanent and cannot be reversed.</p>
+      <hr>
+      <a href="#" class="btn btn-info" (click)="showDeleteTripPopup(false)">No</a>
+      <a href="#" class="btn btn-danger" (click)="deleteTrip(trip)">Yes</a>
+    </div>
+    <button (click)="editTrip(trip)" class="btn btn-info col-6">Edit</button>
+    <button (click)="showDeleteTripPopup(true)" class="btn btn-danger col-6">Delete</button>
+  </div>
 </div>
