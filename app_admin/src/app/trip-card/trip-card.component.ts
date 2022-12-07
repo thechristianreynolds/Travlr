@@ -2,6 +2,7 @@ import { Component, Input } from '@angular/core';
 import { Router } from '@angular/router';
 import { Trip } from '../models/trip';
 import { TripDataService } from '../services/trip-data.service';
+import { AuthenticationService } from '../services/authentication.service';
 
 @Component({
   selector: 'app-trip-card',
@@ -15,8 +16,13 @@ export class TripCardComponent {
 
   constructor(
     private router: Router,
-    private dataService: TripDataService
+    private dataService: TripDataService,
+    private authenticationService: AuthenticationService
   ) { }
+
+  public isLoggedIn(): boolean {
+    return this.authenticationService.isLoggedIn();
+  }
 
   private editTrip(trip: Trip): void {
     console.log('Inside TripCardComponent#editTrip');

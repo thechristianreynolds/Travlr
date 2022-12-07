@@ -21,7 +21,7 @@
       <a href="#" class="btn btn-info" (click)="showDeleteTripPopup(false)">No</a>
       <a href="#" class="btn btn-danger" (click)="deleteTrip(trip)">Yes</a>
     </div>
-    <button (click)="editTrip(trip)" class="btn btn-info col-6">Edit</button>
-    <button (click)="showDeleteTripPopup(true)" class="btn btn-danger col-6">Delete</button>
+    <button *ngIf="isLoggedIn()" (click)="editTrip(trip)" class="btn btn-info col-6">Edit</button>
+    <button *ngIf="isLoggedIn()" (click)="showDeleteTripPopup(true)" class="btn btn-danger col-6">Delete</button>
   </div>
 </div>

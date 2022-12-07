@@ -1,6 +1,6 @@
 <div class="row mx-auto">
   <div class="col-12">
-    <button (click)="addTrip()" class="btn btn-info mb-3">Add Trip</button>
+    <button *ngIf="isLoggedIn()" (click)="addTrip()" class="btn btn-info mb-3">Add Trip</button>
   </div>
   <div class="col-lg-4" *ngFor="let trip of trips">
     <app-trip-card [trip]="trip" class="card-deck mt-2"></app-trip-card>
