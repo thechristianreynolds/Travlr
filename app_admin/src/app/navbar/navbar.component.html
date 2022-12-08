@@ -1,20 +1,25 @@
-<nav class="navbar navbar-expand navbar-light bg-light">
-  <a class="navbar-brand" href="#"><img src="/assets/images/logo.png"></a>
-  <button class="navbar-toggler" type="button" data- toggle="collapse" data-target="#navbarNavAltMarkup" aria-
-    controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+<div class="container-fluid">
+  <a class="navbar-brand" href="#"><img src="/assets/images/logo.png" alt="travlr logo"></a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
-      <a class="nav-item nav-link active" routerLink="list-trips">Trips</a>
+  <div class="d-flex justify-content-end">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLink="list-trips">Trips</a>
+        </li>
+        <li class="nav-item">
+          <a *ngIf="!isLoggedIn()" class="nav-link active" routerLink="login">Log In</a>
+        </li>
+        <li class="nav-item">
+          <a *ngIf="!isLoggedIn()" class="nav-link active" routerLink="register">Register</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" *ngIf="isLoggedIn()" class="nav-link active" (click)="onLogout()">Log Out</a>
+        </li>
+      </ul>
     </div>
   </div>
-  <div class="navbar-end ">
-    <a class="navbar-item" routerLink="login" *ngIf="!isLoggedIn()">
-      <span class="has-icon-left">Log In</span>
-    </a>
-    <a class="navbar-item" (click)="onLogout()" *ngIf="isLoggedIn()">
-      <span class="has-icon-left ">Log Out</span>
-    </a>
-  </div>
-</nav>
+</div>
