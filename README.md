@@ -1,4 +1,4 @@
-# CS465-fullstack
+# CS465 | MEAN Travlr App
 
 ---
 
