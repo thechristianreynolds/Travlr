@@ -1,5 +1,9 @@
 # CS465 | MEAN Travlr App
 
+![](https://imgur.com/b9f5bm0.jpg)
+
+http://ec2-3-238-102-206.compute-1.amazonaws.com:3000/
+
 ---
 
 ### Architecture
